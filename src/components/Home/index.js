@@ -3,7 +3,7 @@ import spider from '../../assets/spider.jpg'
 import iron from '../../assets/iron.jpg'
 import thor from '../../assets/thor.jpg'
 import captain from '../../assets/america.jpg'
-import hulk from '../../assets/hulk.jpg'
+import hulk from '../../assets/hulk.jpg' 
 
 import Button from "../Buttom/index.js"
 
