@@ -8,7 +8,7 @@ Inicialmente o projeto começou com a utilização de Tailwind, mas para ter um 
 <br>
 <br>
 <br>
-# Desafio de API
+Desafio de API <br>
 O objetivo principal é criar um Web site estruturado de forma organizada, tendo como foco a experiencia do usuário.<br>
 Deve ser utilizado uma das APIs que iremos disponibilizar, sendo elas gratuitas e de facil acesso.<br>
 OBS: algumas possivelmente irão solicitar o Login em seus sites, caso tenha dificuldade falar com o coleguinha.<br>
