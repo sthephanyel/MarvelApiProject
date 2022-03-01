@@ -11,8 +11,9 @@ O projeto foi construido com React JS, para rodar, basta abrir o terminal, e dig
 Para consumir API, faça um cadastro no site da https://developer.marvel.com/, pegue as chaves que serão geradas "PRIVATE_KEY" e "PUBLIC_KEY"<br>
 Crie na pasta raiz um arquivo com o nome ".env.local", e adicione suas chaves da forma mostrada como exemplo abaixo<br>
 <br>
-> REACT_APP_PRIVATE_KEY="key"<br>
-> REACT_APP_PUBLIC_KEY="key"<br>
+<br>
+REACT_APP_PRIVATE_KEY="key"<br>
+REACT_APP_PUBLIC_KEY="key"<br>
 <br>
 <br>
 <br>
