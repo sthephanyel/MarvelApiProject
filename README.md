@@ -5,6 +5,15 @@ O projeto foi desenvolvido como um desafio pessoal para meus colegas e eu, consi
 Inicialmente o projeto começou com a utilização de Tailwind, mas para ter um melhor desafio, optei por <br> utilizar o styled-component que é uma biblioteca (lib) que utiliza o conceito de CSS-in-JS, ou seja,<br> que nos permite escrever códigos CSS dentro do Javascript. Foram utilizados também Hooks do React como useEffect, useState, useContext e outros, e o axios para consumo da API.
 
 <br>
+OBS:<br> 
+Após baixar o programa, dê o comando "npm install", para instalar as dependencias necessárias para rodar o projeto.<br>
+O projeto foi construido com React JS, para rodar, basta abrir o terminal, e digital o comando "npm start" ou "npm run start"<br>
+Para consumir API, faça um cadastro no site da https://developer.marvel.com/, pegue as chaves que serão geradas "PRIVATE_KEY" e "PUBLIC_KEY"<br>
+Crie na pasta raiz um arquivo com o nome ".env.local", e adicione suas chaves da forma mostrada como exemplo abaixo<br>
+<br>
+<br>
+REACT_APP_PRIVATE_KEY="key"<br>
+REACT_APP_PUBLIC_KEY="key"<br>
 <br>
 <br>
 <br>
