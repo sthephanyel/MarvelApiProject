@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
+=======
+# MarvelApiProject
+PROJETO AINDA EM DESEMVOLVIMENTO...<br>
+O projeto foi desenvolvido como um desafio pessoal para meus colegas e eu, consiste em criar um site simples onde será <br> necessário consumir o conteudo de uma das APIs, e mostrá-las de forma dinamica e criativa.<br>
+> O objetivo principal do defafio é consumir de maneira certa uma API, evitando ao máximo a perde dados e demora durante as requisições dos dados,<br> além de trabalhar a criatividade durante a criação do site, já que o defaio não limita com o uso de frameworks ou plugins especificos.<br>
+>>>>>>> 20aedba0f2f4e35254233fcb525bb415790fc4e9
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

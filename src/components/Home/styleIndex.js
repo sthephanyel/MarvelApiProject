@@ -72,7 +72,7 @@ export const DivMarvelCaracteres = styled.div`
     justify-content: center;
     border-bottom: 1px solid white;
     background-color:#ffffff10;
-    backdrop: blur(12px);
+    backdrop: blur(12px); 
     -webkit-backdrop-filter: blur(12px);
     /* background-image:url('../../../public/aberturamarvel.gif'); */
     background-image: url(${(props)=>props.img});
