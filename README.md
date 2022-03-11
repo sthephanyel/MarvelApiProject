@@ -1,38 +1,70 @@
-# MarvelApiProject
-O projeto foi desenvolvido como um desafio pessoal para meus colegas e eu, consiste em criar um site simples onde será <br> necessário consumir o conteudo de uma das APIs, e mostrá-las de forma dinamica e criativa.<br>
-> O objetivo principal do defafio é consumir de maneira certa uma API, evitando ao máximo a perde dados e demora durante as requisições dos dados,<br> além de trabalhar a criatividade durante a criação do site, já que o defaio não limita com o uso de frameworks ou plugins especificos.<br>
+# Getting Started with Create React App
 
-Inicialmente o projeto começou com a utilização de Tailwind, mas para ter um melhor desafio, optei por <br> utilizar o styled-component que é uma biblioteca (lib) que utiliza o conceito de CSS-in-JS, ou seja,<br> que nos permite escrever códigos CSS dentro do Javascript. Foram utilizados também Hooks do React como useEffect, useState, useContext e outros, e o axios para consumo da API.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-<br>
-OBS:<br> 
-Após baixar o programa, dê o comando "npm install", para instalar as dependencias necessárias para rodar o projeto.<br>
-O projeto foi construido com React JS, para rodar, basta abrir o terminal, e digital o comando "npm start" ou "npm run start"<br>
-Para consumir API, faça um cadastro no site da https://developer.marvel.com/, pegue as chaves que serão geradas "PRIVATE_KEY" e "PUBLIC_KEY"<br>
-Crie na pasta raiz um arquivo com o nome ".env.local", e adicione suas chaves da forma mostrada como exemplo abaixo<br>
-<br>
-<br>
-REACT_APP_PRIVATE_KEY="key"<br>
-REACT_APP_PUBLIC_KEY="key"<br>
-<br>
-<br>
-<br>
-Desafio de API <br>
-O objetivo principal é criar um Web site estruturado de forma organizada, tendo como foco a experiencia do usuário.<br>
-Deve ser utilizado uma das APIs que iremos disponibilizar, sendo elas gratuitas e de facil acesso.<br>
-OBS: algumas possivelmente irão solicitar o Login em seus sites, caso tenha dificuldade falar com o coleguinha.<br>
-Caso venha a ter dificuldade na utilização das APIs, será permitido a utilização de server.json, para criar uma API local, sendo essa utilizada na criação do projeto.<br>
-Para criação do site não a restrição de linguagem, plataforma utilizada para codar ou  framework para utilizar no CSS.<br>
-<br>
-APIs<br>
-Marvel:<br>
-https://developer.marvel.com/ <br>
-<br>
-Pokémon: <br>
-https://pokeapi.co/ <br>
-<br>
-IMDb: <br>
-https://developer.imdb.com/ <br>
-<br>
-NASA: <br>
-https://api.nasa.gov/ <br>
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

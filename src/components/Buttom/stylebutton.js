@@ -12,6 +12,12 @@ export const Container = styled.div`
     :hover{
         transform: scale(1);
     }
+    @media (max-width:700px){
+        width: 10rem;
+    }
+    @media (max-width:550px){
+        width: 8rem;
+    }
 `;
 
 export const ButtonText = styled.button`

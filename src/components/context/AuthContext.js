@@ -13,6 +13,9 @@ export default function Index(props){
     const [itens, setItens] = useState([]);
     const [heroi, setHeroi] = useState("Spider-Man (House of M)");
 
+    const[remaining, setRemaining] = useState([]);
+    const [remainingHeroi, setRemainingHeroi] = useState(["spider-man"]);
+
     useEffect(()=>{
         const fetch = async ()=>{
             const result = await axios(`http://gateway.marvel.com/v1/public/characters?nameStartsWith=${heroi}&ts=${time}&apikey=${publicKey}&hash=${hash}`);
@@ -20,17 +23,44 @@ export default function Index(props){
             setItens(result.data.data.results.splice(0,1));
         }
         fetch()
+        const fetchRemaining = async()=>{
+            const resultRemaining = await axios(`http://gateway.marvel.com/v1/public/characters?nameStartsWith=${remainingHeroi}&ts=${time}&apikey=${publicKey}&hash=${hash}`);
+            console.log(resultRemaining.data.data.results);
+            setRemaining(resultRemaining.data.data.results.splice(0,10));
+        }
+        fetchRemaining()
     },[heroi])
 
-    function EscolhaHeroiButton(props){
-        const result = props;
+    function EscolhaHeroiButton(name){
+        const result = name;
         setHeroi(result);
-        console.log("Heroi:" +result) 
+
+        if(result==="Iron Man/Tony Stark (MAA)"){
+            const resultRemaining = result.substr(0,6).replace(/[]/g, "").toLowerCase();
+            setRemainingHeroi(resultRemaining);
+            console.log("resulta remaing:"+resultRemaining);
+        }else if(result==="Spider-Man (House of M)"){
+            const resultRemaining = result.substr(0,10).replace(/[()]/g, "").toLowerCase();
+            setRemainingHeroi(resultRemaining);
+            console.log(resultRemaining);
+        }else if(result==="Hulk (HAS)"){
+            const resultRemaining = result.substr(0,6).replace(/[ ()]/g, "").toLowerCase();
+            setRemainingHeroi(resultRemaining);
+            console.log(resultRemaining);
+        }
+        else{
+            const resultRemaining = result.substr(0,6).replace(/[()]/g, "").toLowerCase();
+            setRemainingHeroi(resultRemaining);
+            console.log(resultRemaining);
+        }
+        
+
+        console.log("Heroi:" +result);
     }
     
 
     return (
-        <AllContext.Provider value={{itens, setItens, heroi, setHeroi, EscolhaHeroiButton}}>
+        <AllContext.Provider value={{itens, setItens, heroi, setHeroi, EscolhaHeroiButton,remaining,setRemaining,remainingHeroi,setRemainingHeroi}}>
             {props.children}
         </AllContext.Provider>
     );
