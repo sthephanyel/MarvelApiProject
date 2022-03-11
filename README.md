@@ -12,7 +12,7 @@ que nos permite escrever códigos CSS dentro do Javascript. Foram utilizados tam
 <br>
 <br>
 <div align="center">
-![img-site](https://user-images.githubusercontent.com/62970346/157896235-5d6675b2-7d9d-40d0-800b-3901c849c7bc.jpeg)
+<img src="https://user-images.githubusercontent.com/62970346/157896235-5d6675b2-7d9d-40d0-800b-3901c849c7bc.jpeg"/>
 </div>
 <br>
 Desafio de API<br>
