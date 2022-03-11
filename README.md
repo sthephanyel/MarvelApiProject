@@ -1,4 +1,4 @@
-###MarvelApiProject<br>
+##MarvelApiProject<br>
 O projeto foi desenvolvido como um desafio pessoal para meus colegas e eu, consiste em criar um site simples onde será<br>
 necessário consumir o conteudo de uma das APIs, e mostrá-las de forma dinamica e criativa.<br>
 <br>
