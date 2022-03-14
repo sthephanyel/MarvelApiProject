@@ -38,7 +38,7 @@ export default function Index(){
                 </div>
                 <div>
                     <strong><a href="#">Inicio</a></strong>
-                    <strong><a href="#">Personagens</a></strong>
+                    <strong><a href="#remaining">Personagens</a></strong>
                     <strong><a href="https://developer.marvel.com/" target="_blank">Api Marvel</a></strong>
                     <strong><a href="#divInformacoesGerais">Criador</a></strong>
                 </div>

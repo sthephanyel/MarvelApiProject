@@ -13,7 +13,8 @@ export default function Index({}){
 
     return(
         <Container>
-            <TableHero>
+            <TableHero id='remaining'>
+                <h1>Personagens</h1>
                 {remaining.map((user, key)=>(
                     <div key={key}>
                         <a href="#hero">

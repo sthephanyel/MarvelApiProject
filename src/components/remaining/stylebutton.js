@@ -24,6 +24,16 @@ export const TableHero = styled.div`
     div{
         display: inline-block;
     }
+    h1{
+        border-bottom: 1px solid white;
+
+        :before {
+            content:"-"
+        }
+        :after {
+            content:"-"
+        }
+    }
 `;
 
 export const HeroField = styled.div`

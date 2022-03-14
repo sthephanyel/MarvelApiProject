@@ -4,9 +4,19 @@ import React from 'react';
 export const Container = styled.div`
     width: 100%;
     max-width: 100%;
-    height: 550vh;
+    height: 350vh;
     color: white;
     transition: all 0.5s linear;
+
+    @media (max-width: 950px) {
+        height: 250vh;
+    }
+    @media (max-width: 550px) {
+        height: 200vh;
+    }
+    @media (max-width: 450px) {
+        height: 150vh;
+    }
 `;
 export const HeaderPage = styled.div`
     display:flex;
@@ -78,11 +88,30 @@ export const DivMarvelCaracteres = styled.div`
     background-image: url(${(props)=>props.img});
     background-repeat: no-repeat;
     background-size: cover;
-    background: opacity(5);
+    /* background: opacity(5); */
+    
+    overflow: hidden;
+    text-overflow: ellipsis;
+    overflow-y: scroll;
+    word-wrap: break-word;
+
+    ::-webkit-scrollbar{
+        width: 1px;
+        background: #121b22;
+    }
+    ::-webkit-scrollbar-track{
+        background: #121b22;
+        border-radius:50px;
+    }
+    ::-webkit-scrollbar-thumb{
+        background:#fff;
+        border-radius:50px;
+    }
+    
     div>div>div{
         width: 100%;
         margin: 1rem;
-        background:linear-gradient(to right , #101b37 , #041746,#0b1320, #121b22);
+        /* background:linear-gradient(to right , #101b37 , #041746,#0b1320, #121b22); */
         border-radius:20px;
         text-align: center;
         align-items: center;
@@ -95,6 +124,13 @@ export const DivMarvelCaracteres = styled.div`
     :hover{
         background-color:#ffffff18;
     }
+    /* @media (max-width: 1200px) {
+        height: 115vh;
+    }
+
+    @media (max-width: 500px) {
+        height: 140vh;
+    } */
 `;  
 
 
@@ -113,7 +149,11 @@ export const IMG = styled.img`
     @media (max-width: 800px) {
         width: 73%;
         height: 73%;
-    }   
+    }
+    @media (max-width: 500px) {
+        width: 100%;
+        height: 100%;
+    }
 
 `;
 
@@ -128,6 +168,9 @@ export const DivInformacoesGerais = styled.div`
     color: white;
     margin-top: 1rem;
     height: 45vh;
+
+    @media (max-width: 700px) {
+    }
  
 `;
 export const DivInformacoesCriador = styled.div`
@@ -144,6 +187,15 @@ export const DivInformacoesCriador = styled.div`
     }
     div>strong{
         border-bottom: 1px solid white;
+    }
+    @media (max-width: 700px) {
+        div>strong{
+            font-size:1rem;
+
+        }
+        div>p{
+            font-size:1rem;
+        }
     }
 `;
 export const DivInformacoesRedesSociais = styled.div`
@@ -175,6 +227,21 @@ export const DivInformacoesRedesSociais = styled.div`
             backdrop: blur(12px);
             -webkit-backdrop-filter: blur(12px);
 
+        }
+    }
+    @media (max-width: 700px) {
+        flex-direction: column;
+        div{
+            
+            width:8rem;
+            height: 14rem;
+            img{
+                width:40px;
+                height:40px;
+            }
+            strong {
+                font-size:1rem
+            }
         }
     }
 `;
