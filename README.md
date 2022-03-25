@@ -10,6 +10,19 @@ utilizar o styled-component que é uma biblioteca (lib) que utiliza o conceito d
 que nos permite escrever códigos CSS dentro do Javascript. Foram utilizados também Hooks do React como useEffect, useState, useContext e outros, e o axios para <br>consumo da API.<br>
 <br>
 <br>
+Para ver o projeto funcionando, necessário se cadastrar no site da https://developer.marvel.com/, pegar as chaves de acesso PUBLIC_KEY e PRIVATE_KEY.<br>
+<br>
+Após baixar o projeto em sua máquina, dê o comando...<br>
+<br>
+npm install <br>
+para instalar as dependências necessárias.<br>
+Em seguida crie uma pasta na raiz do projeto com o nome .env, será nesse arquivos que você colocará as chaves de acesso que o site da marvel lhe deu.<br>
+<br>
+<br>
+REACT_APP_PRIVATE_KEY=""
+REACT_APP_PUBLIC_KEY=""
+<br>
+Coloque as chaves dentro das aspas, e o projeto já esta rodando normalmente.
 <br>
 <div align="center">
 <img src="https://user-images.githubusercontent.com/62970346/157896235-5d6675b2-7d9d-40d0-800b-3901c849c7bc.jpeg"/>
