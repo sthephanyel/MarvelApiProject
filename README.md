@@ -19,7 +19,8 @@ para instalar as dependências necessárias.<br>
 Em seguida crie uma pasta na raiz do projeto com o nome .env, será nesse arquivos que você colocará as chaves de acesso que o site da marvel lhe deu.<br>
 <br>
 <br>
-REACT_APP_PRIVATE_KEY=""
+REACT_APP_PRIVATE_KEY=""<br>
+<br>
 REACT_APP_PUBLIC_KEY=""
 <br>
 Coloque as chaves dentro das aspas, e o projeto já esta rodando normalmente.
