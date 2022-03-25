@@ -23,6 +23,7 @@ REACT_APP_PRIVATE_KEY=""<br>
 <br>
 REACT_APP_PUBLIC_KEY=""
 <br>
+<br>
 Coloque as chaves dentro das aspas, e o projeto já esta rodando normalmente.
 <br>
 <div align="center">
